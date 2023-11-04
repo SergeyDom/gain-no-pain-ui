@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import NewQuotationView from "@/views/NewWorkout.vue";
-
+import NewWorkout from "@/views/NewWorkout.vue";
 
 const routes = [
     // {
@@ -8,9 +7,9 @@ const routes = [
     //     redirect: '/new-quotation'
     // },
     {
-        path: '/new-quotation',
-        name: 'new-quotation',
-        component: NewQuotationView
+        path: '/new-workout',
+        name: 'new-workout',
+        component: NewWorkout
     },
 ]
 

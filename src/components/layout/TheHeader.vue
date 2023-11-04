@@ -1,9 +1,9 @@
 <template>
   <header>
     <nav>
-      <router-link to="/new-quotation">New Workout</router-link>
-      <router-link to="/new-quotation">New Exercise</router-link>
-      <router-link to="/new-quotation">New Memeber</router-link>
+      <router-link to="/new-workout">New Workout</router-link>
+      <router-link to="/new-exercise">New Exercise</router-link>
+      <router-link to="/new-member">New Member</router-link>
     </nav>
   </header>
 </template>
